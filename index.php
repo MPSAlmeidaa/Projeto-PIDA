@@ -38,14 +38,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Padaria do Seu Zé</title>
+    <title>Lanchonete D'Almeidas</title>
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg">
         <div class="container">
-          <a class="navbar-brand" ><h1>Padaria do Seu Zé</h1></a>
+          <a class="navbar-brand" ><h1>Lanchonete D'Almeidas</h1></a>
       <?php
         // Exibir mensagem de erro (se houver)
         if (isset($erro)) {
@@ -55,6 +55,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
           
         
     </header>
+    
     
     <div class="page-heading contact-heading header-text" style="height: 450px; background-image: url(assets/imagens/padaria.jpg);">
     <div class="container">
@@ -81,7 +82,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
          
             
     <footer>
-        &copy; 2023 Padaria do Seu Zé
+        &copy; 2024 Lanchonete D'Almeidas
     </footer>
 </body>
 </html>
